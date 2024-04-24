@@ -28,7 +28,7 @@ for question in q:
             correct_answer = options[i]
     counter2 = 0
     for answer in shuffled_answers:
-        print(options[counter2], answer)
+        print(f"{options[counter2]}. {answer}")
         counter2 += 1
     counter += 1
     user_answer = input("Answer: ")
